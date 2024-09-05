@@ -18,7 +18,10 @@ const collection =db.collection("donors");
     }  else if(path.pathname == "/js/custom.js"){
         res.writeHead(200,{ "Content-Type":"text/js"});
         res.end(fs.readFileSync("../client-side/js/custom.js"));
-    } else if(path.pathname == "/add"){
+    }else if(path.pathname=="/css/style.css"){
+        res.writeHead(200,{"Content-Type":"text/css"})
+        res.end(fs.readFileSync("../client-side/css/style.css")) 
+    }else if(path.pathname == "/add"){
         res.writeHead(200,{ "Content-Type":"text/html"});
         res.end(fs.readFileSync("../client-side/pages/adddonor.html"));
     }

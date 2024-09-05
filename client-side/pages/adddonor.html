@@ -5,13 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body><form action="submit" method="POST">
-    <input type="text" placeholder="name">
-    <input type="text" placeholder="email">
-    <input type="text" placeholder="phone">
-    <input type="text" placeholder="bloodgroup">
-    <input type="text" placeholder="gender">
-    <button>Add</button>
+<body><form action="submit" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="bloodgroup">Blood Group:</label><br>
+    <select id="bloodgroup" name="bloodgroup" required>
+        <option value="" disabled selected>Select your blood group</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+    </select><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+    
+    <input type="submit" value="Submit">
     </form>
 </body>
 </html>
