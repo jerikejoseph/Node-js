@@ -59,5 +59,35 @@
     transform: scale(1.1);
     background-color:black;
 }
+.child{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 100px;
+    border: 1px solid black;
+    width: 380px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+}
+.child1{
+  padding-left: 630px;
+  padding-top: 60px;
+  color: blue;
+  text-decoration: underline;
+}
+.child2{
+    margin-left:82px ;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+}
+.child2:hover{
+    transform: scale(1.1);
+    background-color:gray;
+}
 
 
