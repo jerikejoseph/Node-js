@@ -48,16 +48,5 @@
     transform: scale(1.1);
     background-color:green;
 }
-.mern7{
-    background-color: black;
-    color: white;
-    border: none;
-    height: 20px;
-    width: 90px;
-}
-.mern7:hover{
-    transform: scale(1.1);
-    background-color:black;
-}
 
 

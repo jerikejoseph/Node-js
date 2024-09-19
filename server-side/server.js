@@ -21,6 +21,9 @@ const collection =db.collection("donors");
     }else if(path.pathname=="/css/style.css"){
         res.writeHead(200,{"Content-Type":"text/css"})
         res.end(fs.readFileSync("../client-side/css/style.css")) 
+    }else if(path.pathname=="/css/style.css"){
+        res.writeHead(200,{"Content-Type":"text/css"})
+        res.end(fs.readFileSync("../client-side/css/adddonor.css")) 
     }else if(path.pathname == "/add"){
         res.writeHead(200,{ "Content-Type":"text/html"});
         res.end(fs.readFileSync("../client-side/pages/adddonor.html"));
