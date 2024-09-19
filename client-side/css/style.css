@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+    margin-left: 37%;
+     margin-top: -10%;
+     color: blue;
+     text-decoration: underline; 
+}
+.mern1{
+ background-color:lightpink;
+ height: 100vh;
+ padding-top: 20%;
+ padding-left: 10%;   
+
+}
+.mern4{
+    background-color:red;
+    color:white;
+    border: none;
+    height: 20px;
+    width: 90px;
+}
+.mern4:hover{
+    transform: scale(1.1);
+    background-color:red;
+}
+.mern5{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 90px;
+}
+.mern5:hover{
+    transform: scale(1.1);
+    background-color:blue;
+}
+.mern6{
+    background-color:green;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 90px;
+}
+.mern6:hover{
+    transform: scale(1.1);
+    background-color:green;
+}
+.mern7{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 90px;
+}
+.mern7:hover{
+    transform: scale(1.1);
+    background-color:black;
+}
+
+
