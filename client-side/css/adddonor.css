@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.global{
+    
+    /* background-image: url(../images/red-blood-cells.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main{
+    padding: 20px;
+    width: 500px;
+    /* box-shadow: 0px 2px 10px 7px black; */
+    border-radius: 10px;
+    align-items: center;
+    background-color:red;
+    justify-items: center;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] ,input[type="number"]{
+    width: 95%;
+    padding: 10px;
+    margin: 8px 3px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.radio{
+    margin: 10px;
+}
+label {
+    margin-right: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn>button{
+    padding: 5px 10px;
+    background-color:rgb(124, 22, 22);
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.btn>button:hover{
+    background-color: rgb(210, 143, 143);
+}
+body{
+    background-color: white;
+}
