@@ -1,14 +1,16 @@
-const app=express()
+
 import express from "express"
 import Connection from "./connection.js"
 import env from "dotenv"
 import router from "./router.js"
 env.config()
+const app=express()
+app.use(express.json());
 
 app.use(express.static("client-side"))
-app.use(express.json());
+
 app.use('/api',router);
-const PORT=3000
+
 Connection().then(()=>{
     console.log("database connected");
     app.listen(process.env.PORT,()=>{

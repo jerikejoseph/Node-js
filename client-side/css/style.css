@@ -2,16 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-.h1{
-    margin-left: 37%;
-     margin-top: -10%;
-     color: blue;
-     text-decoration: underline; 
-}
+
 .mern1{
- background-color:lightpink;
- height: 100vh;
- padding-top: 20%;
+ padding-top: 10%;
  padding-left: 10%;   
 
 }
@@ -19,14 +12,16 @@
     background-color:red;
     color:white;
     border: none;
-    height: 20px;
+    height: 24px;
     width: 90px;
+   
 }
 .mern4:hover{
     transform: scale(1.1);
     background-color:red;
 }
 .mern5{
+    
     background-color: blue;
     color: white;
     border: none;
@@ -49,4 +44,26 @@
     background-color:green;
 }
 
+
+nav {
+    background-color:black;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    padding-left: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
 
